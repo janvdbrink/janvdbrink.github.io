@@ -1,0 +1,16 @@
+.icon-btn {
+  text-align: center;
+  padding: 20px;
+  transition:transform 0.2s ease, box-shadow 0.2s ease;
+}
+.icon-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+icon-btn:active {
+  transform: scale(0.95);
+}
+icon-btn i {
+  font-side: 2rem;
+  margin-bottom: 5px;
+}

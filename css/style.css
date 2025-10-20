@@ -7,10 +7,13 @@
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-icon-btn:active {
+.icon-btn:active {
   transform: scale(0.95);
 }
-icon-btn i {
+.icon-btn i {
   font-side: 2rem;
   margin-bottom: 5px;
+}
+.custom-icon i {
+  background-image: url(images/swallow-issues.svg);
 }
